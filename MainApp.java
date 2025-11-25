@@ -62,7 +62,7 @@ class DatabaseConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/quickbite_db";
     private static final String USER = "root";       // your MySQL username
-    private static final String PASSWORD = "magsafe1";   // your MySQL password
+    private static final String PASSWORD = "**YOUR PASWORD**";   // your MySQL password
 
     public static Connection getConnection() {
         try {
